@@ -1,0 +1,17 @@
+{
+  "name": "learnings",
+  "version": "1.0.0",
+  "description": "All my class learnings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "keywords": [
+    "Class",
+    "Software",
+    "Engineering",
+    "Mastery"
+  ],
+  "author": "Damola Oladipo",
+  "license": "MIT"
+}
