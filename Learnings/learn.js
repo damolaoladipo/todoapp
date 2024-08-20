@@ -15,3 +15,4 @@ const person = {
 }
 
 const { firstName,  lastName, age, address: {street, city} } = person;
+
