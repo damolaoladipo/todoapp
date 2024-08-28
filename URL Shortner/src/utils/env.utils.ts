@@ -9,7 +9,7 @@ class AppEnv {
    */
   public isProduction(): boolean {
     let result: boolean = false;
-    if (process.env.APP_ENV === ENVType.DEVELOPMENT) {
+    if (process.env.APP_ENV === ENVType.PRODUCTION) {
       result = true;
     }
     return result;
@@ -21,7 +21,7 @@ class AppEnv {
    */
   public isStaging(): boolean {
     let result: boolean = false;
-    if (process.env.APP_ENV === ENVType.PRODUCTION) {
+    if (process.env.APP_ENV === ENVType.STAGING) {
       result = true;
     }
 
@@ -35,7 +35,7 @@ class AppEnv {
    */
   public isDev(): boolean {
     let result: boolean = false;
-    if (process.env.APP_ENV === ENVType.STAGING) {
+    if (process.env.APP_ENV === ENVType.DEVELOPMENT) {
       result = true;
     }
     return result;
